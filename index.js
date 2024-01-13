@@ -4,7 +4,7 @@ let tbody = document.getElementById("tbody")
 
 
 // fetch function
-fetch("http://localhost:3000/user")
+fetch("https://json-server-six-bice.vercel.app/user")
     .then(res => res.json())
     .then(json => {
         json.map(data => {
